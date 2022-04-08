@@ -1,0 +1,43 @@
+.contact-container{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+.contact-container .mail img{
+    height: 30px;
+    width: 30px;
+}
+.contact-container .tel img{
+    height: 30px;
+    width: 30px;
+}
+.contact-container .wsp img{
+    height: 30px;
+    width: 30px;
+}
+.contact-container .fb img{
+    height: 30px;
+    width: 30px;
+}
+.contact-container a{
+    padding-right: 10px ;
+}
+.contact-container img:hover{
+    transform: scale(1.4);
+    transition: .25s;
+}
+@media only screen and (min-width: 768px) {
+    .contact-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        /* float: right; */
+       /* padding-left: 5%; */
+    }
+    .contact-container a{
+        margin-right: 17px;
+    }
+}

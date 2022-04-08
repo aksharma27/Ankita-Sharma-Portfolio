@@ -8,6 +8,10 @@ body{
     font-size: large;
     word-spacing: 15px;
 }
+.hero .img img{ 
+    border: 1px solid rgb(134, 133, 133);
+    box-shadow: 2px 2px 17px rgb(90, 89, 89);
+}
 h2{
     font-family: 'Shadows Into Light', cursive;
     margin-top: 50px;
@@ -27,18 +31,19 @@ span{
     width: 140px;
     height: 140px;
     border-radius: 68px 68px;
-    filter: blur(2px);
+  
 }
 .hero img:hover{
     /* z-index: -1; */
     transform: scale(1.5);
     transition: .26s;
-    filter: blur(0px);
+    /* filter: blur(0px); */
 }
 .marquee{
+    /* text-shadow: 4px 4px 20px black; */
     font-family: 'Lobster', cursive;
     font-size: x-large ;
-    padding-top: 30px;
+    padding-top: 140px;
     margin-left: 12px;
     margin-right: 12px;
 }
@@ -67,5 +72,14 @@ span{
         flex-direction: row;
         align-items: center;
         justify-content: center;
+    }
+    .hero img{
+          filter: blur(1px);
+    }
+    .hero img:hover{
+        /* z-index: -1; */
+        transform: scale(1.5);
+        transition: .26s;
+        filter: blur(0px);
     }
 }
